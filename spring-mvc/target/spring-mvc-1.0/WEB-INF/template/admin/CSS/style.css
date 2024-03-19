@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px; /* Chiều rộng của sidebar */
+    height: 100vh; /* Chiều cao toàn màn hình */
+    background: #333;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Sắp xếp nội dung theo chiều dọc */
+    justify-content: space-between; /* Phân bố không gian giữa các mục */
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #444;
+}
+
+.content {
+    margin-left: 250px; /* Đẩy nội dung sang phải bằng chiều rộng của sidebar */
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto; /* Cho phép cuộn nội dung này */
+    height: 100vh; /* Chiều cao tối đa của nội dung */
+    box-sizing: border-box; /* Đảm bảo rằng padding không làm tăng kích thước tổng thể */
+}
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling cho bảng */
+.manage-servers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.manage-servers-table th, .manage-servers-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.manage-servers-table th {
+    background-color: #f2f2f2;
+}
+
+.manage-servers-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Styling cho nút hành động */
+.action-button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.action-button:hover {
+    background-color: #45a049;
+}
+
+.disconnect-button {
+    background-color: #f44336;
+}
+
+.disconnect-button:hover {
+    background-color: #da190b;
+}
+
+/* Styling chung cho tất cả các mục section */
+section {
+    background-color: rgb(206, 201, 201);
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Tiêu đề section */
+section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Điều chỉnh padding cho nội dung chính */
+.content {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Styling cho container của biểu đồ */
+.chart-container {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Styling cho canvas của biểu đồ */
+.chart-container canvas {
+    max-width: 100%;
+    height: auto; /* Hoặc bạn có thể thiết lập chiều cao cố định */
+}

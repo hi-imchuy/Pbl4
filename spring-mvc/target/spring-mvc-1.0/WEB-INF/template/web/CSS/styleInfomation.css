@@ -1,0 +1,261 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#EDEDEE;
+	font-family: Arial, sans-serif;
+}
+
+#divMain{
+    height: 100%;
+    width: auto;
+    display: flex;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+#left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 200px;
+    height: 750px;
+	background-color: rgb(160, 158, 158);
+}
+
+#settingsChoose{
+	display: none;
+	position: absolute;
+    margin-top: 650px;
+    margin-left: 200px;
+    z-index: 1;
+}
+
+.buttonSettingsChoose{
+    font-size: 20px;
+    width: 135px;
+    border: none;
+    margin: 3px;
+    background-color: #c6c2c2;
+}
+
+.buttonTop{
+	display: block;
+	width: 200px;
+	height: 50px;
+	margin: 5px 0px;
+	border: none;
+	background-color: rgb(192, 190, 190);
+	font-weight: bolder;
+    font-size: 15px;
+}
+
+#home{
+	color: red;
+}
+
+.buttonBot{
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin: 5px 0px;
+	border: none;
+	background-color: rgb(192, 190, 190);
+}
+
+.buttonTop:hover, .buttonBot:hover{
+    background-color: rgb(157, 156, 156);
+}
+
+i{
+	margin: -10px 5%;
+	width: 20px;
+	height: auto;
+}
+
+#contentSettings{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+#settings{
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+    height: auto;
+    width: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#content{
+    display: flex;
+    width: 200px;
+    height: auto;
+    background-color: rgb(160, 158, 158);
+}
+
+#contentLeft{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 540px;
+    margin: 20px 0;
+}
+
+#info1st{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.buttonContentLeft{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 5px 0px;
+    border: none;
+    background-color: rgb(192, 190, 190);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.buttonContentLeft:hover{
+    background-color: rgb(184, 182, 182);
+}
+
+#contentRight{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 580px;
+    /* background-color: aquamarine; */
+    margin-left: 10px;
+}
+
+#contentRightTop{
+    display: flex;
+    width: 700px;
+    height: 220px;
+    background-color: rgb(200 200 200);
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+#formAvt{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#chooseFile{
+	margin: 15px;
+    width: 175px;
+}
+
+
+#you{
+    font-size: 25px;
+    color: #2275f1;
+}
+
+#elo{
+    color: red;
+}
+
+#avtUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#user{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 70px;
+}
+
+.btn-img{
+    font-weight: bold;
+    width: 115px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: none;
+    //margin: 5px 0px 20px 0px;
+}
+
+#contentRightBot{
+    display: flex;
+    height: 360px;
+    width: 730px;
+    background-color: rgb(200 200 200);
+    margin-top: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    background-color: #a3a2a2;
+    padding: 0px 10px;
+}
+
+#contentRightBotInf{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 50px;
+}
+
+.rightBotInf{
+    display: flex;
+}
+
+.infoUser{
+    /* margin-left: 100px; */
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nameInfUser{
+    font-family: fantasy;
+}
+
+#save{
+    width: 120px;
+    height: 40px;
+    font-size: x-large;
+    background-color: #84ff84;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 0 0 50px
+}
+
+#change{
+    padding-top: 16px;
+    margin-left: 57px;
+    color: #0b22ab;
+    text-decoration: none;
+
+}
+
+#save:hover{
+    background-color: #32dc32;
+}
+
+#country{
+    margin-left: 115px; 
+    width: 250px; 
+    border-radius: 5px;
+    border: none;
+    background-color: #a3a2a2;
+}

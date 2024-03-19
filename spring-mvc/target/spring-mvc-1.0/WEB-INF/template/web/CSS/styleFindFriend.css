@@ -1,0 +1,260 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#EDEDEE;
+	font-family: Arial, sans-serif;
+}
+
+#divMain{
+    height: 100%;
+    width: auto;
+    display: flex;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+#left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 200px;
+    height: 750px;
+	background-color: rgb(160, 158, 158);
+}
+
+#settingsChoose{
+	display: none;
+	position: absolute;
+    margin-top: 650px;
+    margin-left: 200px;
+    z-index: 1;
+}
+
+.buttonSettingsChoose{
+    font-size: 20px;
+    width: 135px;
+    border: none;
+    margin: 3px;
+    background-color: #c6c2c2;
+}
+
+.buttonTop{
+	display: block;
+	width: 200px;
+	height: 50px;
+	margin: 5px 0px;
+	border: none;
+	background-color: rgb(192, 190, 190);
+	font-weight: bolder;
+    font-size: 15px;
+}
+
+#home{
+	color: red;
+}
+
+.buttonBot{
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin: 5px 0px;
+	border: none;
+	background-color: rgb(192, 190, 190);
+}
+
+.buttonTop:hover, .buttonBot:hover{
+    background-color: rgb(157, 156, 156);
+}
+
+i{
+	margin: -10px 5%;
+	width: 20px;
+	height: auto;
+}
+
+#contentSettings{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+#settings{
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+    height: auto;
+    width: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#content{
+    display: flex;
+    width: 200px;
+    height: auto;
+    background-color: rgb(160, 158, 158);
+}
+
+#contentLeft{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 540px;
+    margin: 20px 0;
+}
+
+.buttonContentLeft{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 5px 0px;
+    border: none;
+    background-color: rgb(192, 190, 190);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.buttonContentLeft:hover{
+    background-color: rgb(184, 182, 182);
+}
+
+#contentRight{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 580px;
+    /* background-color: aquamarine; */
+    margin-left: 10px;
+}
+
+#contentRightTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 180px;
+    background-color: rgb(200 200 200);
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+.findFriend{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    margin: 0px 20px;
+}
+
+.buttonFind{
+    height: 50px;
+    width: 75px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 5px;
+    border: none;
+    background: #85cccc;
+    font-weight: bold;
+    color: white;
+}
+
+.buttonFind:hover{
+    background-color: #53d0d0;
+}
+
+#info1st{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#you{
+    font-size: 25px;
+    color: #2275f1;
+}
+
+#elo{
+    color: red;
+}
+
+#user{
+    width: 150px;
+    height: 150px;
+}
+
+#contentRightBot{
+    display: block;
+    height: 400px;
+    width: 730px;
+    background-color: rgb(200 200 200);
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    background-color: #a3a2a2;
+}
+
+.infoFriendContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: auto;
+    background-color: #a3a2a2;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.name, .username, .elo{
+    font-weight: bold;
+    margin: 0px 20px;
+}
+
+.username{
+    color: #795548;
+}
+
+.name{
+    color: maroon;
+}
+
+.elo{
+    color: red;
+}
+
+.addFriend{
+    height: 40px;
+    width: 65px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 5px;
+    border: none;
+    background: #85cccc;
+    font-weight: bold;
+    color: white;
+}
+
+#save{
+    width: 120px;
+    height: 40px;
+    font-size: x-large;
+    background-color: #84ff84;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 0 0 50px
+}
+
+#change{
+    padding-top: 16px;
+    margin-left: 57px;
+    color: #0b22ab;
+    text-decoration: none;
+
+}
+
+#save:hover{
+    background-color: #32dc32;
+}
